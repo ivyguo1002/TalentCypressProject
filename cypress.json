@@ -1,0 +1,18 @@
+
+{
+    "baseUrl": "http://localhost:5034",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+    "env": {
+      "TALENT_APP_API": "http://localhost:60002",
+      "TALENT_APP_IDENTITY_API": "http://localhost:60001"
+    },
+    "projectId": "",
+    "watchForFileChanges": false,
+    "defaultCommandTimeout": 10000
+}
